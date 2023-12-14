@@ -1,6 +1,6 @@
-import React from 'react'
-import './ProjectSignup.css'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import '../Style/ProjectSignup.css';
+import { Link } from 'react-router-dom';
 
 export default function ProjectSignup() {
     return (
@@ -39,7 +39,7 @@ export default function ProjectSignup() {
                         </div>
                         <center>
                         <p>Already have an account?
-                        <Link to='/login'>Sign in</Link>.
+                        <Link to='/'>Log in</Link>
                         </p>
                         </center>
                 </div>
