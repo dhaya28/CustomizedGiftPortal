@@ -1,19 +1,17 @@
 
-.main{
+.main1{
     border: 2px;
     border-style: hidden;
     height: 500px;
     width: 400px;
     margin: auto;
   }
-  #image{
-    padding-top: 40px;
-    width: 110%;
+  #image1{
+    width: 99.8%;
+    height: 99.4%;
   }
-  h2{
-    text-align: center;
-  }
-  input{
+
+  #ip{
     background: transparent;
     border: hidden;
     border-bottom: 2px solid black;
@@ -21,7 +19,7 @@
     font-size: 17px;
     width: 80%;
   }
-  .split{
+  .split1{
     height: 80%;
     width: 35%;
     overflow-x: hidden;
@@ -30,7 +28,7 @@
     box-shadow: 0 0 10px gray;
   }
   .loginleft{
-    height: 90%;
+    height: 82%;
     border-bottom-left-radius: 2%;
     border-top-left-radius: 2%;
     left: 15%;
@@ -43,16 +41,16 @@
     right: 15%;
     background-color: rgb(240, 232, 232);
   }
-  .inform{
+  .inform1{
     padding-left: 10%;
   }
-  #loginButton{
+  #loginButton1{
     font-size: 17px;
     color: white;
     width: 81%;
-    background-color: rgb(85, 85, 196);
+    background-color: rgb(243, 61, 61);
   }
-  #logo{
+  #logo1{
     text-align: center;
     width: 60px;
     height: 60px;

@@ -1,11 +1,9 @@
 .sign {
     padding-top: 65px;
-    display: flex;
-    
 }
 #image{
-    width: 110%;
-    height: 90%;
+    width: 99.8%;
+    height: 99.4%;
 }
 .inform{
     padding-left: 60px;
@@ -13,7 +11,6 @@
 .main {
     border: 2px;
     border-style: hidden;
-    height: 500px;
     width: 400px;
     margin: auto;
 }
@@ -37,7 +34,6 @@ input {
     overflow-x: hidden;
     position: fixed;
     z-index: 1;
-    display: flex;
     box-shadow: 0 0 10px grey;
 }
 
@@ -62,7 +58,7 @@ input {
     font-size: 17px;
     color: white;
     width: 81%;
-    background-color: rgb(85, 85, 196);
+    background-color: rgb(243, 61, 61);
 }
 
 #logo {

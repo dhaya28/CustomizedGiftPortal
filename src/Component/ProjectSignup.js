@@ -1,17 +1,23 @@
 import React from 'react';
 import '../Style/ProjectSignup.css';
 import { Link } from 'react-router-dom';
+import Avatar from '@mui/material/Avatar';
+import img2 from '../Asserts/img2.png'
+import img3 from '../Asserts/img3.png';
+import { useContext } from "react";
+import {MyContext} from './ProjectContext'
 
 export default function ProjectSignup() {
+    const {InputUsername} = useContext(MyContext)
     return (
         <div className='sign'>
             <div className='split right'>
-                <img id='image' src='https://media.istockphoto.com/id/1136598403/vector/simple-logo-illustration-for-gift-shop-logo-design-emblem-design-concept.jpg?s=612x612&w=0&k=20&c=2pGNrfIFXvg-EUtT8MU6zU852b52QCBA7X-EScer6Cc='></img>
+                <img id='image' src={img3}></img>
             </div>
             <div className='split left'>
                 <div className='main'>
                     <center>
-                        <img id='logo' src='https://media.istockphoto.com/id/1136598403/vector/simple-logo-illustration-for-gift-shop-logo-design-emblem-design-concept.jpg?s=612x612&w=0&k=20&c=2pGNrfIFXvg-EUtT8MU6zU852b52QCBA7X-EScer6Cc='></img>
+                    <Avatar id='logo' alt="i" src={img2} />
                     </center>
                     <h2 >Gift Shop</h2>
                     <div className='inform'>
@@ -19,10 +25,10 @@ export default function ProjectSignup() {
                     <p>The way to happiness is to sign up.</p>
                         <form>
                             <br></br>
-                            <input type='text' placeholder='Username'></input>
+                            <input type='text' placeholder='Username' ></input>
                             <br></br>
                             <br></br>
-                            <input type='text' placeholder='New Password'></input>
+                            <input type='password' placeholder='New Password'></input>
                             <br></br>
                             <br></br>
                             <input type='number' placeholder='Age'></input>
